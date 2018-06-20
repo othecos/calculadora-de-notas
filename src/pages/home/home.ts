@@ -42,7 +42,11 @@ export class HomePage {
     let nota = (this.final_n1*0.4) + (this.final_n2*0.6);
     let type;
     let motivational;
-    if(nota > 7.5){
+    if(nota > 10){
+      type = "warning"
+      motivational="<span style='color: #f8bb86'><b>Para de mentir que eu to vendo!</b></span>";
+    }
+    else if(nota > 7.5 && nota <=10){
       type = "success"
       motivational="<span style='color: green'><b>Parabens :)</b></span>";
     }
@@ -68,7 +72,11 @@ export class HomePage {
     let nota = ((this.qtd_nf - (this.qtd_n1 * 0.4)) / 0.6)
     let type;
     let motivational;
-    if(nota > 7.5){
+    if(nota > 10){
+      type = "warning"
+      motivational="<span style='color: #f8bb86'><b> Nao fazemos milagre, volte sempre!</b></span>";
+    }
+    else if(nota > 7.5 && nota <=10){
       type = "error"
       motivational="<span style='color: red'><b>Vai ter que correr atras hem :(</b></span>";
     }
