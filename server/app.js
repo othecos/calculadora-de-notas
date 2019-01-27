@@ -1,9 +1,10 @@
 const express = require('express');
 const path = require("path");
 const bodyParser = require('body-parser');
+var forceSsl = require('force-ssl-heroku');
 
 const app = express();
-
+app.use(forceSsl);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
