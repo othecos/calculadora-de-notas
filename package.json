@@ -11,7 +11,8 @@
     "web": "node server/server.js",
     "start": "node server/server.js",
     "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "ionic:serve": "ionic-app-scripts serve",
+    "postinstall": "ionic build --aot --prod"
   },
   "dependencies": {
     "@angular/animations": "5.2.11",
