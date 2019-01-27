@@ -7,6 +7,11 @@
     "src": "assets/imgs/logo.png",
     "sizes": "512x512",
     "type": "image/png"
+  },
+  {
+    "src": "assets/imgs/calculator.png",
+    "sizes": "128x128",
+    "type": "image/png"
   }],
   "background_color": "#4e8ef7",
   "theme_color": "#4e8ef7"
