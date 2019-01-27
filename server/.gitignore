@@ -1,0 +1,10 @@
+node_modules
+teste.js
+
+*.png
+*.jpeg
+
+*.xlsx
+*.csv
+
+public/*

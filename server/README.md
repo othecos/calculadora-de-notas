@@ -1,0 +1,1 @@
+# To Use this Web-Server, simply add a folder called "public" to the root of this folder, and the webserver will serve the index.html in por 3000
