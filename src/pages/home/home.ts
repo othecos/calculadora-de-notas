@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import swal from 'sweetalert2';
+import Swal from 'sweetalert2';
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -14,6 +14,15 @@ export class HomePage {
   psb_n1:number ;
   constructor(public navCtrl: NavController) {
 
+  }
+  ngOnInit(){
+    Swal.fire(
+      {
+        type: "success",
+        title: "Versão 2.0",
+        text: "Hey! Acabou de sair a versão V2 dessa calculadora, voce pode ver ela por esse link aqui, corre la!",
+        footer: "<a class='btn-special btn-pill' href='https://calculadora-de-notas.herokuapp.com/' target='_blank'>Dpzinha</a>"
+      })
   }
   validation(){
     switch (this.notas) {
@@ -54,7 +63,7 @@ export class HomePage {
       type="error"
       motivational="<span style='color: red'><b>Prepara os 100 conto da sub! :/</b></span>";
     }
-    swal({
+    Swal.fire({
       title: 'Notinha',
       html:
       `<p>A sua nota é: <b>${nota}</b></p>
@@ -81,7 +90,7 @@ export class HomePage {
       motivational="<span style='color: green'><b>Ta de boa :)</b></span>";
     }
 
-    swal({
+    Swal.fire({
       title: 'Notinha',
       html:
       `<p>Voce tem que tirar : <b>${nota}</b> na N2</p>
@@ -100,7 +109,7 @@ export class HomePage {
     possibleGrades.forEach((element,index)=>{
       html+= `<p>Nota ${index}: -> ${element} </p>`;
     })
-    swal({
+    Swal.fire({
       title: 'Notinha',
       html:
       `<p>As possiveis notas que voce pode tirar de acordo com a N2 são:</p>
