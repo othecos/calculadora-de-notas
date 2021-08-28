@@ -11,4 +11,4 @@ O projeto está aberto pra contribuições, os interessados podem me mandar um e
 #### Othecos
 A Web developer with experience in Angular and Sass development
 - Contact - othecos@outlook.com
-- Linkedin - [![](https://media.licdn.com/dms/image/C4E12AQHh9fBjpzFo1A/article-inline_image-shrink_1000_1488/0?e=1552521600&v=beta&t=PgH46e9sTLKoJ-fuPphuLE_eUOZVN4Xodt8kQQyhmRE)](https://www.linkedin.com/in/otavio-henrique-pires-costa/)
+- Linkedin - https://www.linkedin.com/in/otavio-henrique-pires-costa
